@@ -41,7 +41,7 @@ dependencies {
     implementation 'androidx.webkit:webkit:1.11.0'
 }
 
-// THIS is the part that fixes the duplicate class error
+// ========== THIS PART FIXES THE ERROR ==========
 configurations.all {
     resolutionStrategy {
         force 'org.jetbrains.kotlin:kotlin-stdlib:1.9.24'
